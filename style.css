@@ -7,14 +7,14 @@
 
 .central_box
 {
-    width: 500px;
+    width: 600px;
     height: 400px;
     background-color:white;
     display: flex;
     position: absolute;
     top: 30%;
     left: 35%;
-    border-radius: 40px;
+    border-radius: 10px;
 }
 
 .from
@@ -26,9 +26,57 @@
     position: absolute;
     top: 10%;
     left: 10%;
-    border-radius: 20px;
+    /* border-radius: 20px; */
+}
+#from_btn
+{
+    width: 220px;
+    height: 70px;
+    background-color:greenyellow;
+    /* border-radius: 20px; */
+    cursor: pointer;
+    font-size: 16px;
+    color: blue;
+    top: 10%;
+    left: 5%;
+    position: absolute;
 }
 
+#to_btn
+{
+    width: 220px;
+    height: 70px;
+    background-color:greenyellow;
+    /* border-radius: 20px; */
+    cursor: pointer;
+    font-size: 16px;
+    color: blue;
+    top: 10%;
+    left: 55%;
+    position: absolute;
+}
+.entered_amount
+{
+    width: 220px;
+    height: 70px;
+    /* background-color:greenow; */
+    border-radius: 20px;
+    /* cursor: pointer; */
+    font-size: 16px;
+    /* color: blue; */
+    top: 40%;
+    left: 5%;
+    position: absolute;
+}
+
+.image_container img {
+    width:40px; 
+    height: 30px; 
+    top: 40%;
+    left: 45%;
+    position: absolute;
+
+}
 .converted_box
 {
     width: 100px;
